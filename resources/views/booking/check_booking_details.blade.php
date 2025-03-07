@@ -417,4 +417,7 @@
     <script src="{{ asset('js/nav-tab.js') }}"></script>
     <script src="{{ asset('js/copy.js') }}"></script>
     <script src="{{ asset('js/file-upload.js') }}"></script>
+    <script src="{{ secure_asset('js/nav-tab.js') }}"></script>
+    <script src="{{ secure_asset('js/copy.js') }}"></script>
+    <script src="{{ secure_asset('js/file-upload.js') }}"></script>
 @endpush

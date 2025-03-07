@@ -67,5 +67,6 @@
     </div>
 @endsection
 @push('after-scripts')
-    <script src="js/whatsapp-number.js"></script>
+    <script src="{{ asset('js/whatsapp-number.js') }}"></script>
+    <script src="{{ secure_asset('js/whatsapp-number.js') }}"></script>
 @endpush

@@ -163,4 +163,5 @@
 @endsection
 @push('after-scripts')
     <script src="{{ asset('js/nav-tab.js') }}"></script>
+    <script src="{{ secure_asset('js/nav-tab.js') }}"></script>
 @endpush
