@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @stack('before-styles')
     <link href="{{ asset('output.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('output.css') }}" rel="stylesheet">
     @stack('after-styles')
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -4,6 +4,7 @@
     <header class="flex flex-col items-center py-[100px] w-full max-w-[1280px] mx-auto px-16">
         <div id="Badge" class="flex items-center w-fit rounded-full p-2 pr-6 gap-3 bg-patungan-black">
             <img src="{{ asset('assets/images/photos/Profiles.png') }}" class="h-9 flex shrink-0" alt="icon">
+            <img src="{{ secure_asset('assets/images/photos/Profiles.png') }}" class="h-9 flex shrink-0" alt="icon">
             <p class="font-semibold leading-5 text-white"><span class="font-extrabold">16.500+</span> Users Has Joined
                 🔥 </p>
         </div>
@@ -31,6 +32,8 @@
                 <span class="font-bold text-lg leading-5 text-white">Pesan Sekarang</span>
                 <img src="{{ asset('assets/images/icons/arrow-right-white.svg') }}" class="w-6 flex shrink-0"
                     alt="icon">
+                <img src="{{ secure_asset('assets/images/icons/arrow-right-white.svg') }}" class="w-6 flex shrink-0"
+                    alt="icon">
             </a>
             <a href="#"
                 class="flex items-center rounded-full h-[60px] w-fit px-9 gap-[6px] bg-white border border-patungan-border">
@@ -50,11 +53,15 @@
                 <p class="font-medium text-xl leading-[25px] text-patungan-violet">Happy Client</p>
             </div>
             <img src="{{ asset('assets/images/icons/star-divider-white.svg') }}" class="w-6 flex shrink-0" alt="icon">
+            <img src="{{ secure_asset('assets/images/icons/star-divider-white.svg') }}" class="w-6 flex shrink-0"
+                alt="icon">
             <div class="flex flex-col w-[222px] gap-[6px] text-center">
                 <p class="font-Grifter font-bold text-[42px] leading-[44px] text-white">12</p>
                 <p class="font-medium text-xl leading-[25px] text-patungan-violet">Total Services</p>
             </div>
             <img src="{{ asset('assets/images/icons/star-divider-white.svg') }}" class="w-6 flex shrink-0" alt="icon">
+            <img src="{{ secure_asset('assets/images/icons/star-divider-white.svg') }}" class="w-6 flex shrink-0"
+                alt="icon">
             <div class="flex flex-col w-[222px] gap-[6px] text-center">
                 <p class="font-Grifter font-bold text-[42px] leading-[44px] text-white">4.920+</p>
                 <p class="font-medium text-xl leading-[25px] text-patungan-violet">Total Transactions</p>
@@ -65,7 +72,11 @@
         <div class="Background-Effect absolute w-full h-full overflow-hidden">
             <img src="{{ asset('assets/images/backgrounds/Ellipse-top.svg') }}" class="absolute top-0 -right-[337px] z-0"
                 alt="eclipse bg">
+            <img src="{{ secure_asset('assets/images/backgrounds/Ellipse-top.svg') }}"
+                class="absolute top-0 -right-[337px] z-0" alt="eclipse bg">
             <img src="{{ asset('assets/images/backgrounds/Ellipse-bottom.svg') }}"
+                class="absolute bottom-0 -left-[283px] z-0" alt="eclipse bg">
+            <img src="{{ secure_asset('assets/images/backgrounds/Ellipse-bottom.svg') }}"
                 class="absolute bottom-0 -left-[283px] z-0" alt="eclipse bg">
         </div>
         <section class="Content relative flex flex-col w-full max-w-[1280px] px-16 mx-auto gap-8 py-[100px]">
@@ -79,6 +90,8 @@
                     <span class="font-bold text-lg leading-5">Semua Product</span>
                     <img src="{{ asset('assets/images/icons/arrow-circle-down-black.svg') }}" class="w-6 flex shrink-0"
                         alt="">
+                    <img src="{{ secure_asset('assets/images/icons/arrow-circle-down-black.svg') }}"
+                        class="w-6 flex shrink-0" alt="">
                 </a>
             </div>
             <div class="grid grid-cols-3 gap-6">
@@ -145,6 +158,8 @@
                 <span class="font-bold leading-5 text-patungan-orange">Lihat Semua</span>
                 <img src="{{ asset('assets/images/icons/arrow-right-orange.svg') }}" class="w-6 flex shrink-0"
                     alt="icon">
+                <img src="{{ secure_asset('assets/images/icons/arrow-right-orange.svg') }}" class="w-6 flex shrink-0"
+                    alt="icon">
             </button>
         </section>
     </section>
@@ -162,31 +177,43 @@
                         <div class="flex items-center gap-2">
                             <img src="{{ asset('assets/images/icons/verify-green.svg') }}" class="w-[18px] flex shrink-0"
                                 alt="icon">
+                            <img src="{{ secure_asset('assets/images/icons/verify-green.svg') }}"
+                                class="w-[18px] flex shrink-0" alt="icon">
                             <p class="font-medium text-lg leading-[22px] text-patungan-grey">Data pribadi aman</p>
                         </div>
                         <div class="flex items-center gap-2">
                             <img src="{{ asset('assets/images/icons/verify-green.svg') }}" class="w-[18px] flex shrink-0"
                                 alt="icon">
+                            <img src="{{ secure_asset('assets/images/icons/verify-green.svg') }}"
+                                class="w-[18px] flex shrink-0" alt="icon">
                             <p class="font-medium text-lg leading-[22px] text-patungan-grey">beragam pembayaran</p>
                         </div>
                         <div class="flex items-center gap-2">
                             <img src="{{ asset('assets/images/icons/verify-green.svg') }}" class="w-[18px] flex shrink-0"
                                 alt="icon">
+                            <img src="{{ secure_asset('assets/images/icons/verify-green.svg') }}"
+                                class="w-[18px] flex shrink-0" alt="icon">
                             <p class="font-medium text-lg leading-[22px] text-patungan-grey">Akun Resmi & legal</p>
                         </div>
                         <div class="flex items-center gap-2">
                             <img src="{{ asset('assets/images/icons/verify-green.svg') }}" class="w-[18px] flex shrink-0"
                                 alt="icon">
+                            <img src="{{ secure_asset('assets/images/icons/verify-green.svg') }}"
+                                class="w-[18px] flex shrink-0" alt="icon">
                             <p class="font-medium text-lg leading-[22px] text-patungan-grey">24/7 Customer services</p>
                         </div>
                         <div class="flex items-center gap-2">
                             <img src="{{ asset('assets/images/icons/verify-green.svg') }}" class="w-[18px] flex shrink-0"
                                 alt="icon">
+                            <img src="{{ secure_asset('assets/images/icons/verify-green.svg') }}"
+                                class="w-[18px] flex shrink-0" alt="icon">
                             <p class="font-medium text-lg leading-[22px] text-patungan-grey">Lebih hemat 50%</p>
                         </div>
                         <div class="flex items-center gap-2">
                             <img src="{{ asset('assets/images/icons/verify-green.svg') }}" class="w-[18px] flex shrink-0"
                                 alt="icon">
+                            <img src="{{ secure_asset('assets/images/icons/verify-green.svg') }}"
+                                class="w-[18px] flex shrink-0" alt="icon">
                             <p class="font-medium text-lg leading-[22px] text-patungan-grey">Dan masih banyak lainnya
                             </p>
                         </div>
@@ -195,6 +222,8 @@
                 <a href="#" class="flex items-center rounded-full h-[60px] w-fit px-9 gap-[6px] bg-patungan-orange">
                     <span class="font-bold text-lg leading-5 text-white">Pesan Sekarang</span>
                     <img src="{{ asset('assets/images/icons/arrow-right-white.svg') }}" class="w-6 flex shrink-0"
+                        alt="icon">
+                    <img src="{{ secure_asset('assets/images/icons/arrow-right-white.svg') }}" class="w-6 flex shrink-0"
                         alt="icon">
                 </a>
             </div>
@@ -216,6 +245,8 @@
                 <div class="flex w-full h-[232px] overflow-hidden">
                     <img src="{{ asset('assets/images/thumbnails/select-product.png') }}"
                         class="w-full h-full object-cover object-top" alt="icon">
+                    <img src="{{ secure_asset('assets/images/thumbnails/select-product.png') }}"
+                        class="w-full h-full object-cover object-top" alt="icon">
                 </div>
             </div>
             <div class="card flex flex-col w-full rounded-[32px] bg-white overflow-hidden">
@@ -232,6 +263,8 @@
                 </div>
                 <div class="flex w-full h-[232px] overflow-hidden">
                     <img src="{{ asset('assets/images/thumbnails/payment-process.png') }}"
+                        class="w-full h-full object-cover object-top" alt="icon">
+                    <img src="{{ secure_asset('assets/images/thumbnails/payment-process.png') }}"
                         class="w-full h-full object-cover object-top" alt="icon">
                 </div>
             </div>
@@ -251,6 +284,8 @@
                 <div class="flex w-full h-[232px] overflow-hidden">
                     <img src="{{ asset('assets/images/thumbnails/join-group.png') }}"
                         class="w-full h-full object-cover object-top" alt="icon">
+                    <img src="{{ secure_asset('assets/images/thumbnails/join-group.png') }}"
+                        class="w-full h-full object-cover object-top" alt="icon">
                 </div>
             </div>
         </div>
@@ -265,16 +300,22 @@
                         <div class="flex items-center gap-2">
                             <img src="{{ asset('assets/images/icons/verify-green.svg') }}" class="w-[18px] flex shrink-0"
                                 alt="icon">
+                            <img src="{{ secure_asset('assets/images/icons/verify-green.svg') }}"
+                                class="w-[18px] flex shrink-0" alt="icon">
                             <p class="font-medium text-lg leading-[22px] text-patungan-grey">Bank Transfer</p>
                         </div>
                         <div class="flex items-center gap-2">
                             <img src="{{ asset('assets/images/icons/verify-green.svg') }}" class="w-[18px] flex shrink-0"
                                 alt="icon">
+                            <img src="{{ secure_asset('assets/images/icons/verify-green.svg') }}"
+                                class="w-[18px] flex shrink-0" alt="icon">
                             <p class="font-medium text-lg leading-[22px] text-patungan-grey">Virtual Account</p>
                         </div>
                         <div class="flex items-center gap-2">
                             <img src="{{ asset('assets/images/icons/verify-green.svg') }}" class="w-[18px] flex shrink-0"
                                 alt="icon">
+                            <img src="{{ secure_asset('assets/images/icons/verify-green.svg') }}"
+                                class="w-[18px] flex shrink-0" alt="icon">
                             <p class="font-medium text-lg leading-[22px] text-patungan-grey">Digital Wallet</p>
                         </div>
                     </div>
@@ -282,6 +323,8 @@
             </div>
             <div class="flex w-full max-w-[1000px] mx-auto overflow-hidden">
                 <img src="{{ asset('assets/images/thumbnails/supported-payments.png') }}"
+                    class="w-full h-full object-contain object-center" alt="payments">
+                <img src="{{ secure_asset('assets/images/thumbnails/supported-payments.png') }}"
                     class="w-full h-full object-contain object-center" alt="payments">
             </div>
         </div>
@@ -299,6 +342,8 @@
                         <div class="flex items-center gap-3">
                             <div class="flex w-16 h-16 rounded-full overflow-hidden shrink-0">
                                 <img src="{{ asset('assets/images/photos/photo-1.png') }}"
+                                    class="w-full h-full object-cover" alt="photos">
+                                <img src="{{ secure_asset('assets/images/photos/photo-1.png') }}"
                                     class="w-full h-full object-cover" alt="photos">
                             </div>
                             <div>
@@ -321,6 +366,16 @@
                                     alt="star">
                                 <img src="{{ asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
                                     alt="star">
+                                <img src="{{ secure_asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
+                                    alt="star">
+                                <img src="{{ secure_asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
+                                    alt="star">
+                                <img src="{{ secure_asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
+                                    alt="star">
+                                <img src="{{ secure_asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
+                                    alt="star">
+                                <img src="{{ secure_asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
+                                    alt="star">
                             </div>
                         </div>
                     </div>
@@ -328,6 +383,8 @@
                         <div class="flex items-center gap-3">
                             <div class="flex w-16 h-16 rounded-full overflow-hidden shrink-0">
                                 <img src="{{ asset('assets/images/photos/photo-2.png') }}"
+                                    class="w-full h-full object-cover" alt="photos">
+                                <img src="{{ secure_asset('assets/images/photos/photo-2.png') }}"
                                     class="w-full h-full object-cover" alt="photos">
                             </div>
                             <div>
@@ -350,6 +407,17 @@
                                     alt="star">
                                 <img src="{{ asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
                                     alt="star">
+                                {{-- secure --}}
+                                <img src="{{ secure_asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
+                                    alt="star">
+                                <img src="{{ secure_asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
+                                    alt="star">
+                                <img src="{{ secure_asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
+                                    alt="star">
+                                <img src="{{ secure_asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
+                                    alt="star">
+                                <img src="{{ secure_asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
+                                    alt="star">
                             </div>
                         </div>
                     </div>
@@ -357,6 +425,8 @@
                         <div class="flex items-center gap-3">
                             <div class="flex w-16 h-16 rounded-full overflow-hidden shrink-0">
                                 <img src="{{ asset('assets/images/photos/photo-3.png') }}"
+                                    class="w-full h-full object-cover" alt="photos">
+                                <img src="{{ secure_asset('assets/images/photos/photo-3.png') }}"
                                     class="w-full h-full object-cover" alt="photos">
                             </div>
                             <div>
@@ -379,6 +449,17 @@
                                     alt="star">
                                 <img src="{{ asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
                                     alt="star">
+                                {{-- secure --}}
+                                <img src="{{ secure_asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
+                                    alt="star">
+                                <img src="{{ secure_asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
+                                    alt="star">
+                                <img src="{{ secure_asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
+                                    alt="star">
+                                <img src="{{ secure_asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
+                                    alt="star">
+                                <img src="{{ secure_asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
+                                    alt="star">
                             </div>
                         </div>
                     </div>
@@ -386,6 +467,8 @@
                         <div class="flex items-center gap-3">
                             <div class="flex w-16 h-16 rounded-full overflow-hidden shrink-0">
                                 <img src="{{ asset('assets/images/photos/photo-4.png') }}"
+                                    class="w-full h-full object-cover" alt="photos">
+                                <img src="{{ secure_asset('assets/images/photos/photo-4.png') }}"
                                     class="w-full h-full object-cover" alt="photos">
                             </div>
                             <div>
@@ -408,6 +491,17 @@
                                     alt="star">
                                 <img src="{{ asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
                                     alt="star">
+                                {{-- Secure --}}
+                                <img src="{{ secure_asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
+                                    alt="star">
+                                <img src="{{ secure_asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
+                                    alt="star">
+                                <img src="{{ secure_asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
+                                    alt="star">
+                                <img src="{{ secure_asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
+                                    alt="star">
+                                <img src="{{ secure_asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
+                                    alt="star">
                             </div>
                         </div>
                     </div>
@@ -415,6 +509,8 @@
                         <div class="flex items-center gap-3">
                             <div class="flex w-16 h-16 rounded-full overflow-hidden shrink-0">
                                 <img src="{{ asset('assets/images/photos/photo-5.png') }}"
+                                    class="w-full h-full object-cover" alt="photos">
+                                <img src="{{ secure_asset('assets/images/photos/photo-5.png') }}"
                                     class="w-full h-full object-cover" alt="photos">
                             </div>
                             <div>
@@ -437,6 +533,17 @@
                                     alt="star">
                                 <img src="{{ asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
                                     alt="star">
+                                {{-- secure --}}
+                                <img src="{{ secure_asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
+                                    alt="star">
+                                <img src="{{ secure_asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
+                                    alt="star">
+                                <img src="{{ secure_asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
+                                    alt="star">
+                                <img src="{{ secure_asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
+                                    alt="star">
+                                <img src="{{ secure_asset('assets/images/icons/Star.svg') }}" class="w-6 flex shrink-0"
+                                    alt="star">
                             </div>
                         </div>
                     </div>
@@ -444,6 +551,8 @@
                         <div class="flex items-center gap-3">
                             <div class="flex w-16 h-16 rounded-full overflow-hidden shrink-0">
                                 <img src="{{ asset('assets/images/photos/photo-6.png') }}"
+                                    class="w-full h-full object-cover" alt="photos">
+                                <img src="{{ secure_asset('assets/images/photos/photo-6.png') }}"
                                     class="w-full h-full object-cover" alt="photos">
                             </div>
                             <div>
@@ -473,6 +582,8 @@
                         <div class="flex items-center gap-3">
                             <div class="flex w-16 h-16 rounded-full overflow-hidden shrink-0">
                                 <img src="{{ asset('assets/images/photos/photo-7.png') }}"
+                                    class="w-full h-full object-cover" alt="photos">
+                                <img src="{{ secure_asset('assets/images/photos/photo-7.png') }}"
                                     class="w-full h-full object-cover" alt="photos">
                             </div>
                             <div>
@@ -504,6 +615,8 @@
                         <div class="flex items-center gap-3">
                             <div class="flex w-16 h-16 rounded-full overflow-hidden shrink-0">
                                 <img src="{{ asset('assets/images/photos/photo-1.png') }}"
+                                    class="w-full h-full object-cover" alt="photos">
+                                <img src="{{ secure_asset('assets/images/photos/photo-1.png') }}"
                                     class="w-full h-full object-cover" alt="photos">
                             </div>
                             <div>
@@ -741,6 +854,8 @@
                             <div class="flex w-16 h-16 rounded-full overflow-hidden shrink-0">
                                 <img src="{{ asset('assets/images/photos/photo-2.png') }}"
                                     class="w-full h-full object-cover" alt="photos">
+                                <img src="{{ secure_asset('assets/images/photos/photo-2.png') }}"
+                                    class="w-full h-full object-cover" alt="photos">
                             </div>
                             <div>
                                 <p class="font-semibold text-lg leading-[22px]">Bapak Budi</p>
@@ -769,6 +884,8 @@
                         <div class="flex items-center gap-3">
                             <div class="flex w-16 h-16 rounded-full overflow-hidden shrink-0">
                                 <img src="{{ asset('assets/images/photos/photo-3.png') }}"
+                                    class="w-full h-full object-cover" alt="photos">
+                                <img src="{{ secure_asset('assets/images/photos/photo-3.png') }}"
                                     class="w-full h-full object-cover" alt="photos">
                             </div>
                             <div>
@@ -799,6 +916,8 @@
                             <div class="flex w-16 h-16 rounded-full overflow-hidden shrink-0">
                                 <img src="{{ asset('assets/images/photos/photo-4.png') }}"
                                     class="w-full h-full object-cover" alt="photos">
+                                <img src="{{ secure_asset('assets/images/photos/photo-4.png') }}"
+                                    class="w-full h-full object-cover" alt="photos">
                             </div>
                             <div>
                                 <p class="font-semibold text-lg leading-[22px]">Murayiki Bazz</p>
@@ -827,6 +946,8 @@
                         <div class="flex items-center gap-3">
                             <div class="flex w-16 h-16 rounded-full overflow-hidden shrink-0">
                                 <img src="{{ asset('assets/images/photos/photo-5.png') }}"
+                                    class="w-full h-full object-cover" alt="photos">
+                                <img src="{{ secure_asset('assets/images/photos/photo-5.png') }}"
                                     class="w-full h-full object-cover" alt="photos">
                             </div>
                             <div>
@@ -857,6 +978,8 @@
                             <div class="flex w-16 h-16 rounded-full overflow-hidden shrink-0">
                                 <img src="{{ asset('assets/images/photos/photo-6.png') }}"
                                     class="w-full h-full object-cover" alt="photos">
+                                <img src="{{ secure_asset('assets/images/photos/photo-6.png') }}"
+                                    class="w-full h-full object-cover" alt="photos">
                             </div>
                             <div>
                                 <p class="font-semibold text-lg leading-[22px]">Unil Utami</p>
@@ -885,6 +1008,8 @@
                         <div class="flex items-center gap-3">
                             <div class="flex w-16 h-16 rounded-full overflow-hidden shrink-0">
                                 <img src="{{ asset('assets/images/photos/photo-7.png') }}"
+                                    class="w-full h-full object-cover" alt="photos">
+                                <img src="{{ secure_asset('assets/images/photos/photo-7.png') }}"
                                     class="w-full h-full object-cover" alt="photos">
                             </div>
                             <div>
@@ -917,6 +1042,8 @@
                             <div class="flex w-16 h-16 rounded-full overflow-hidden shrink-0">
                                 <img src="{{ asset('assets/images/photos/photo-1.png') }}"
                                     class="w-full h-full object-cover" alt="photos">
+                                <img src="{{ secure_asset('assets/images/photos/photo-1.png') }}"
+                                    class="w-full h-full object-cover" alt="photos">
                             </div>
                             <div>
                                 <p class="font-semibold text-lg leading-[22px]">Nabila Reyna</p>
@@ -945,6 +1072,8 @@
                         <div class="flex items-center gap-3">
                             <div class="flex w-16 h-16 rounded-full overflow-hidden shrink-0">
                                 <img src="{{ asset('assets/images/photos/photo-2.png') }}"
+                                    class="w-full h-full object-cover" alt="photos">
+                                <img src="{{ secure_asset('assets/images/photos/photo-2.png') }}"
                                     class="w-full h-full object-cover" alt="photos">
                             </div>
                             <div>
@@ -975,6 +1104,8 @@
                             <div class="flex w-16 h-16 rounded-full overflow-hidden shrink-0">
                                 <img src="{{ asset('assets/images/photos/photo-3.png') }}"
                                     class="w-full h-full object-cover" alt="photos">
+                                <img src="{{ secure_asset('assets/images/photos/photo-3.png') }}"
+                                    class="w-full h-full object-cover" alt="photos">
                             </div>
                             <div>
                                 <p class="font-semibold text-lg leading-[22px]">Ibu Budi</p>
@@ -1003,6 +1134,8 @@
                         <div class="flex items-center gap-3">
                             <div class="flex w-16 h-16 rounded-full overflow-hidden shrink-0">
                                 <img src="{{ asset('assets/images/photos/photo-4.png') }}"
+                                    class="w-full h-full object-cover" alt="photos">
+                                <img src="{{ secure_asset('assets/images/photos/photo-4.png') }}"
                                     class="w-full h-full object-cover" alt="photos">
                             </div>
                             <div>
@@ -1033,6 +1166,8 @@
                             <div class="flex w-16 h-16 rounded-full overflow-hidden shrink-0">
                                 <img src="{{ asset('assets/images/photos/photo-5.png') }}"
                                     class="w-full h-full object-cover" alt="photos">
+                                <img src="{{ secure_asset('assets/images/photos/photo-5.png') }}"
+                                    class="w-full h-full object-cover" alt="photos">
                             </div>
                             <div>
                                 <p class="font-semibold text-lg leading-[22px]">Bimore Atreidess</p>
@@ -1061,6 +1196,8 @@
                         <div class="flex items-center gap-3">
                             <div class="flex w-16 h-16 rounded-full overflow-hidden shrink-0">
                                 <img src="{{ asset('assets/images/photos/photo-6.png') }}"
+                                    class="w-full h-full object-cover" alt="photos">
+                                <img src="{{ secure_asset('assets/images/photos/photo-6.png') }}"
                                     class="w-full h-full object-cover" alt="photos">
                             </div>
                             <div>
@@ -1091,6 +1228,8 @@
                             <div class="flex w-16 h-16 rounded-full overflow-hidden shrink-0">
                                 <img src="{{ asset('assets/images/photos/photo-7.png') }}"
                                     class="w-full h-full object-cover" alt="photos">
+                                <img src="{{ secure_asset('assets/images/photos/photo-7.png') }}"
+                                    class="w-full h-full object-cover" alt="photos">
                             </div>
                             <div>
                                 <p class="font-semibold text-lg leading-[22px]">Allison Suzu</p>
@@ -1119,10 +1258,13 @@
             </div>
             <div id="Foreground"
                 class="absolute bottom-0 w-full h-[457px] flex items-end justify-center bg-[linear-gradient(180deg,rgba(245,243,246,0)_0%,#F5F3F6_100%)]">
-                <a href="#" class="flex items-center rounded-full h-[60px] w-fit px-9 gap-[6px] bg-patungan-orange">
+                <a href="#"
+                    class="flex items-center rounded-full h-[60px] w-fit px-9 gap-[6px] bg-patungan-orange">
                     <span class="font-bold text-lg leading-5 text-white">Pesan Sekarang</span>
                     <img src="{{ asset('assets/images/icons/arrow-right-white.svg') }}" class="w-6 flex shrink-0"
                         alt="icon">
+                    <img src="{{ secure_asset('assets/images/icons/arrow-right-white.svg') }}"
+                        class="w-6 flex shrink-0" alt="icon">
                 </a>
             </div>
         </div>
@@ -1147,6 +1289,9 @@
                                 <img src="{{ asset('assets/images/icons/arrow-head-down-black.svg') }}"
                                     class="w-6 flex shrink-0 group-has-[:checked]:-rotate-180 transition-all duration-300"
                                     alt="icon">
+                                <img src="{{ secure_asset('assets/images/icons/arrow-head-down-black.svg') }}"
+                                    class="w-6 flex shrink-0 group-has-[:checked]:-rotate-180 transition-all duration-300"
+                                    alt="icon">
                             </label>
                             <div class="accordion-content mt-4">
                                 <p class="font-semibold leading-[25px]">Your subscription becomes active immediately
@@ -1166,6 +1311,9 @@
                                 <img src="{{ asset('assets/images/icons/arrow-head-down-black.svg') }}"
                                     class="w-6 flex shrink-0 group-has-[:checked]:-rotate-180 transition-all duration-300"
                                     alt="icon">
+                                <img src="{{ secure_asset('assets/images/icons/arrow-head-down-black.svg') }}"
+                                    class="w-6 flex shrink-0 group-has-[:checked]:-rotate-180 transition-all duration-300"
+                                    alt="icon">
                             </label>
                             <div class="accordion-content mt-4">
                                 <p class="font-semibold leading-[25px]">Your subscription becomes active immediately
@@ -1183,6 +1331,9 @@
                                 <h3 class="font-Grifter text-lg leading-[25px]">What if there are difficulties during
                                     the payment process?</h3>
                                 <img src="{{ asset('assets/images/icons/arrow-head-down-black.svg') }}"
+                                    class="w-6 flex shrink-0 group-has-[:checked]:-rotate-180 transition-all duration-300"
+                                    alt="icon">
+                                <img src="{{ secure_asset('assets/images/icons/arrow-head-down-black.svg') }}"
                                     class="w-6 flex shrink-0 group-has-[:checked]:-rotate-180 transition-all duration-300"
                                     alt="icon">
                             </label>
@@ -1206,6 +1357,9 @@
                                 <img src="{{ asset('assets/images/icons/arrow-head-down-black.svg') }}"
                                     class="w-6 flex shrink-0 group-has-[:checked]:-rotate-180 transition-all duration-300"
                                     alt="icon">
+                                <img src="{{ secure_asset('assets/images/icons/arrow-head-down-black.svg') }}"
+                                    class="w-6 flex shrink-0 group-has-[:checked]:-rotate-180 transition-all duration-300"
+                                    alt="icon">
                             </label>
                             <div class="accordion-content mt-4">
                                 <p class="font-semibold leading-[25px]">Your subscription becomes active immediately
@@ -1223,6 +1377,9 @@
                                 <h3 class="font-Grifter text-lg leading-[25px]">What should be done if there are
                                     issues with the subscription account?</h3>
                                 <img src="{{ asset('assets/images/icons/arrow-head-down-black.svg') }}"
+                                    class="w-6 flex shrink-0 group-has-[:checked]:-rotate-180 transition-all duration-300"
+                                    alt="icon">
+                                <img src="{{ secure_asset('assets/images/icons/arrow-head-down-black.svg') }}"
                                     class="w-6 flex shrink-0 group-has-[:checked]:-rotate-180 transition-all duration-300"
                                     alt="icon">
                             </label>
@@ -1244,6 +1401,9 @@
                                 <img src="{{ asset('assets/images/icons/arrow-head-down-black.svg') }}"
                                     class="w-6 flex shrink-0 group-has-[:checked]:-rotate-180 transition-all duration-300"
                                     alt="icon">
+                                <img src="{{ secure_asset('assets/images/icons/arrow-head-down-black.svg') }}"
+                                    class="w-6 flex shrink-0 group-has-[:checked]:-rotate-180 transition-all duration-300"
+                                    alt="icon">
                             </label>
                             <div class="accordion-content mt-4">
                                 <p class="font-semibold leading-[25px]">Your subscription becomes active immediately
@@ -1261,6 +1421,8 @@
             <div class="flex gap-[72px]">
                 <div class="flex flex-col gap-6 w-full max-w-[349px] items-start">
                     <img src="{{ asset('assets/images/logos/logo.svg') }}" class="h-10 flex shrink-0"
+                        alt="logo">
+                    <img src="{{ secure_asset('assets/images/logos/logo.svg') }}" class="h-10 flex shrink-0"
                         alt="logo">
                     <p class="font-medium leading-[25px] text-patungan-grey">Lorem Ipsum is simply dummy text of the
                         printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -1319,6 +1481,19 @@
                         <img src="{{ asset('assets/images/icons/facebook.svg') }}" class="w-6 flex shrink-0"
                             alt="icon">
                     </a>
+                    {{-- secure --}}
+                    <a href="#">
+                        <img src="{{ secure_asset('assets/images/icons/instagram.svg') }}" class="w-6 flex shrink-0"
+                            alt="icon">
+                    </a>
+                    <a href="#">
+                        <img src="{{ secure_asset('assets/images/icons/whatsapp.svg') }}" class="w-6 flex shrink-0"
+                            alt="icon">
+                    </a>
+                    <a href="#">
+                        <img src="{{ secure_asset('assets/images/icons/facebook.svg') }}" class="w-6 flex shrink-0"
+                            alt="icon">
+                    </a>
                 </div>
                 <div class="w-full flex justify-end">
                     <a href="" class="font-medium leading-5 text-patungan-grey text-nowrap">Terms &
@@ -1331,6 +1506,7 @@
 
 @push('after-scripts')
     <script src="{{ asset('js/accordion.js') }}"></script>
+    <script src="{{ secure_asset('js/accordion.js') }}"></script>
     <script>
         const texts = document.querySelectorAll('#slider span');
         const sliderContainer = document.getElementById('slider-container');
