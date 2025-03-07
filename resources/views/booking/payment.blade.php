@@ -94,65 +94,9 @@
                                             <div class="flex flex-col gap-[6px]">
                                                 <p class="font-semibold text-lg leading-[22px] text-patungan-grey">Transfer
                                                     to</p>
-                                                <p class="Transfer-To font-bold text-xl leading-[25px]">1935 0009 1200</p>
-                                                <p class="font-semibold text-lg leading-[22px] text-patungan-grey">PT
-                                                    Seaccount Angga</p>
-                                            </div>
-                                            <button type="button" class="copy-btn flex items-center gap-[6px]"
-                                                onclick="copyTransferTo(this)">
-                                                <img src="{{ asset('assets/images/icons/copy-orange.svg') }}"
-                                                    class="w-6 flex shrink-0" alt="icon">
-                                                <span
-                                                    class="font-semibold text-lg leading-[22px] text-patungan-orange">Copy</span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="group flex flex-col w-full rounded-3xl border border-[#F1F1F1] p-6 bg-white">
-                                    <label class="flex items-center w-full justify-between h-10 overflow-hidden">
-                                        <img src="{{ asset('assets/images/logos/bri.svg') }}"
-                                            class="h-10 flex shrink-0 object-contain" alt="logo">
-                                        <input type="radio" name="payment-method" id=""
-                                            class="appearance-none w-6 h-6 rounded-full mr-[2px] ring-[1.5px] ring-patungan-border checked:ring-patungan-orange border-4 border-white bg-white checked:bg-patungan-orange transition-all duration-300">
-                                    </label>
-                                    <div
-                                        class="content h-0 group-has-[:checked]:!h-[114px] transition-all duration-300 overflow-hidden">
-                                        <hr class="border-patungan-border my-4">
-                                        <div class="bank-details flex items-center justify-between">
-                                            <div class="flex flex-col gap-[6px]">
-                                                <p class="font-semibold text-lg leading-[22px] text-patungan-grey">Transfer
-                                                    to</p>
-                                                <p class="Transfer-To font-bold text-xl leading-[25px]">1935 8899 1200</p>
-                                                <p class="font-semibold text-lg leading-[22px] text-patungan-grey">PT
-                                                    Seaccount Angga</p>
-                                            </div>
-                                            <button type="button" class="copy-btn flex items-center gap-[6px]"
-                                                onclick="copyTransferTo(this)">
-                                                <img src="{{ asset('assets/images/icons/copy-orange.svg') }}"
-                                                    class="w-6 flex shrink-0" alt="icon">
-                                                <span
-                                                    class="font-semibold text-lg leading-[22px] text-patungan-orange">Copy</span>
-                                            </button>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="group flex flex-col w-full rounded-3xl border border-[#F1F1F1] p-6 bg-white">
-                                    <label class="flex items-center w-full justify-between h-10 overflow-hidden">
-                                        <img src="{{ asset('assets/images/logos/bni.svg') }}"
-                                            class="h-10 flex shrink-0 object-contain" alt="logo">
-                                        <input type="radio" name="payment-method" id=""
-                                            class="appearance-none w-6 h-6 rounded-full mr-[2px] ring-[1.5px] ring-patungan-border checked:ring-patungan-orange border-4 border-white bg-white checked:bg-patungan-orange transition-all duration-300">
-                                    </label>
-                                    <div
-                                        class="content h-0 group-has-[:checked]:!h-[114px] transition-all duration-300 overflow-hidden">
-                                        <hr class="border-patungan-border my-4">
-                                        <div class="bank-details flex items-center justify-between">
-                                            <div class="flex flex-col gap-[6px]">
-                                                <p class="font-semibold text-lg leading-[22px] text-patungan-grey">Transfer
-                                                    to</p>
-                                                <p class="Transfer-To font-bold text-xl leading-[25px]">1935 1111 1200</p>
-                                                <p class="font-semibold text-lg leading-[22px] text-patungan-grey">PT
-                                                    Seaccount Angga</p>
+                                                <p class="Transfer-To font-bold text-xl leading-[25px]">2832577368</p>
+                                                <p class="font-semibold text-lg leading-[22px] text-patungan-grey">DAVE
+                                                    GUARDYAN PAKPAHAN</p>
                                             </div>
                                             <button type="button" class="copy-btn flex items-center gap-[6px]"
                                                 onclick="copyTransferTo(this)">
@@ -166,10 +110,7 @@
                                 </div>
                             </div>
                             <div id="Other-Tab" class="tab-content flex flex-col gap-5 hidden">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio laudantium officiis vitae
-                                veritatis dolorem atque in ipsum eius doloribus nulla illo est tempora quos, nobis ea quis
-                                consectetur incidunt maxime. Voluptatibus quod a rerum aut dolorem, illo ipsam provident
-                                dolore nemo laudantium fugiat, suscipit accusantium, et fugit natus eligendi corrupti?
+                                UNTUK METODE LAINNYA BISA TRANSFER KE DANA / GOPAY SAYA DI 082350496224
                             </div>
                         </div>
                     </div>
@@ -179,8 +120,8 @@
                             <p class="font-bold text-xl leading-[25px] text-patungan-grey">Bank Name</p>
                             <div
                                 class="flex items-center rounded-3xl border border-patungan-border p-6 gap-4 bg-patungan-bg-grey focus-within:border-patungan-orange transition-all duration-300">
-                                <img src="{{ asset('assets/images/icons/bank-black.svg') }}"
-                                    class="w-6 h-6 flex shrink-0" alt="icon">
+                                <img src="{{ asset('assets/images/icons/bank-black.svg') }}" class="w-6 h-6 flex shrink-0"
+                                    alt="icon">
                                 <div class="flex h-6 border border-patungan-border -mr-4"></div>
                                 <select name="customer_bank_name" id=""
                                     class="px-4 appearance-none outline-none bg-patungan-bg-grey w-full font-bold text-xl leading-[25px] placeholder:text-patungan-black">
