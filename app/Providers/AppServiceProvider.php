@@ -24,7 +24,7 @@ class AppServiceProvider extends ServiceProvider
     {
         //
         ProductSubscription::observe(ProductSubscriptionObserver::class);
-        if (config('app.env') != 'local') {
+        if (config('app.env') === 'production') {
             URL::forceScheme('https');
         }
     }
