@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use App\Models\ProductSubscription;
 use App\Observers\ProductSubscriptionObserver;
+use Illuminate\Support\Facades\URL;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -23,5 +24,8 @@ class AppServiceProvider extends ServiceProvider
     {
         //
         ProductSubscription::observe(ProductSubscriptionObserver::class);
+        if (config('app.env') != 'local') {
+            URL::forceScheme('https');
+        }
     }
 }
